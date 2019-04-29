@@ -1,0 +1,20 @@
+#wrap{
+
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 22.5px;
+  }
+
+
+  .__container {
+    border-radius: 5px;
+    border-color: #101010;
+    justify-self: stretch;
+    background-color: #ffaa00;
+    margin-right: auto;
+    margin-left: auto;
+  }
